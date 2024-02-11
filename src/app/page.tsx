@@ -28,8 +28,8 @@ export default function Home() {
             </h3>
             <p className="text-lg py-5 leading-8 text-gray-800">
               A Software engineer master in problem solving and meticulous
-              analysis, focused in building the Backend of Api's and Web
-              Applications. Let's connect and crack some code.
+              analysis, focused in building the Backend of Api&apos;s and Web
+              Applications. Let&apos;s connect and crack some code.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800">
@@ -50,13 +50,13 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a{" "}
               <span className="font-bold text-gray-600">Software Engineer</span>{" "}
-              I've been working to build the best software solutions always
-              focused in the client's requirements. To do that, I'm always
-              keeping myself
+              I&apos;ve been working to build the best software solutions always
+              focused in the client&apos;s requirements. To do that, I&apos;m
+              always keeping myself
               <span className="font-bold text-gray-600"> updated </span>
-              with the latest technologies and best practices in the market. I'm
-              always looking for new challenges and opportunities to grow as a
-              professional and as a person.
+              with the latest technologies and best practices in the market.
+              I&apos;m always looking for new challenges and opportunities to
+              grow as a professional and as a person.
             </p>
           </div>
         </section>

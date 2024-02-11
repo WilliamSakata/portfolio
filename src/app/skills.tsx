@@ -20,9 +20,16 @@ function Skills() {
 
   return (
     <div className="flex flex-wrap text-gray-600">
-      {skills.map((skill) => (
-        <div className="px-4 py-3 m-2 bg-gray-300 rounded-md font-medium">{skill}</div>
-      ))}
+      {skills.map((skill) => {
+        return (
+          <div
+            key={`key-${skill}`}
+            className="px-4 py-3 m-2 bg-gray-300 rounded-md font-medium"
+          >
+            {skill}
+          </div>
+        );
+      })}
     </div>
   );
 }
