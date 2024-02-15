@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <section className="min-h-screen bg-custom-gradient">
-          <Nav />
+        <Nav />
+        <section className="min-h-screen bg-custom-gradient mt-20">
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-blue-900 font-extrabold font-sans-serif">
               William Kenji
@@ -40,7 +40,7 @@ export default function Home() {
               <AiFillLinkedin className="text-5xl" />
             </a>
           </div>
-          <div className="mt-20 mx-auto relative bg-gradient-to-b from-blue-900 rounded-full w-80 h-80 flex justify-center pt-2 pb-7 pr-3">
+          <div className="mt-20 mx-auto bg-gradient-to-b from-blue-900 rounded-full w-80 h-80 flex justify-center pt-2 pb-7 pr-3">
             <Image src={avatarBackgroundRemoved} alt={""} />
           </div>
         </section>
