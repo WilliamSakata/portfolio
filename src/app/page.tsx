@@ -18,7 +18,7 @@ export default function Home() {
 
       <main>
         <Nav />
-        <section className="min-h-screen bg-custom-gradient mt-20">
+        <section className="min-h-screen bg-custom-gradient pt-24">
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-blue-900 font-extrabold font-sans-serif">
               William Kenji
